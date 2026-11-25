@@ -55,18 +55,8 @@ Semnalele audio au fost procesate cu `librosa` folosind ferestre de **512 eșant
 * **Clase dificile:** `Walk` (33% recall) este confundată frecvent cu `DoorOpenClose` (13%), `DrawerOpenClose` (13%) și `PaperTear` (20%), din cauza caracterului percusiv de joasă frecvență. Similar, `DrawerOpenClose` (45%) se suprapune acustic cu `DoorOpenClose` și `Cough`.
 
 *(Opțional: poți afișa graficul direct în README după ce urci imaginile, decomentând linia de mai jos)*
-<!-- ![Matrice de Confuzie Random Forest](figures/confusion_matrices/matrice_confuzie_RandomForest.png) -->
+ ![Matrice de Confuzie Random Forest](matrice_confuzie_RandomForest.png) 
 
----
-
-## Testare pe Înregistrări Proprii (Generalizare)
-
-Modelul optim (**Random Forest**) a fost evaluat fără reantrenare pe un set suplimentar de 120 de înregistrări proprii (10 per clasă), preprocesate identic (mono, 16 kHz, 2s, normalizare vârf 0.9, PCM 16-bit):
-
-* **Acuratețe (Date proprii):** `XX.XX%` *(completează cu rezultatul obținut)*
-* **F1-macro (Date proprii):** `0.XXXX` *(completează cu rezultatul obținut)*
-
----
 
 ## Rulare Locală / Google Colab
 
