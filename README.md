@@ -6,23 +6,6 @@
 
 Proiect de **Învățare Automată** care abordează problema clasificării multinomiale a **12 activități cotidiene** pe baza semnalelor audio (pași, bătaie în ușă, tastare, turnarea unui lichid, fermoar etc.). Proiectul acoperă întregul flux de lucru: extragerea de trăsături acustice, analiza exploratorie a datelor (EDA), antrenarea și optimizarea mai multor modele de clasificare fără scurgeri de date (*data leakage*), precum și evaluarea generalizării pe înregistrări proprii.
 
----
-
-## Structura Repository-ului
-
-```text
-.
-├── tema1_IA.ipynb                  # Notebook complet (Google Colab)
-├── raport_tema1.pdf                # Raportul tehnic complet
-├── data/
-│   └── extracted_features.csv      # Setul de date tabular cu trăsăturile extrase
-├── figures/
-│   ├── eda/                        # Boxplot-uri, matrice de corelație, PCA, t-SNE
-│   └── confusion_matrices/         # Matricele de confuzie normalizate (LR, SVM, RF)
-└── README.md
-```
-
----
 
 ## Setul de Date
 
