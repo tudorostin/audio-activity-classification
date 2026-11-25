@@ -54,7 +54,6 @@ Semnalele audio au fost procesate cu `librosa` folosind ferestre de **512 eșant
 * **Clase cel mai bine recunoscute:** `Knock` (92% recall), `Pour` (87%), `SwitchToggle` (80%) și `KeyJingle` (73%), datorită semnăturilor temporale și spectrale distincte identificate la EDA.
 * **Clase dificile:** `Walk` (33% recall) este confundată frecvent cu `DoorOpenClose` (13%), `DrawerOpenClose` (13%) și `PaperTear` (20%), din cauza caracterului percusiv de joasă frecvență. Similar, `DrawerOpenClose` (45%) se suprapune acustic cu `DoorOpenClose` și `Cough`.
 
-*(Opțional: poți afișa graficul direct în README după ce urci imaginile, decomentând linia de mai jos)*
  ![Matrice de Confuzie Random Forest](matrice_confuzie_RandomForest.png) 
 
 
